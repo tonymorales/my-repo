@@ -6,11 +6,12 @@ import java.util.Random;
  */
 public class AI {
     ArrayList<ShotCell> shotShotCells = new ArrayList<ShotCell>();
+    Random rnd;
 
     public ShotCell aiShoot(SeaGrid sea){
         ShotCell p = null;
         if(shotShotCells.isEmpty()){
-            Random rnd = new Random();
+            rnd = new Random();
             while (true){
                 p = new ShotCell(rnd.nextInt(9), rnd.nextInt(9));
                 if(sea.grid[p.getX()][p.getY()] < 2 || (sea.grid[p.getX()][p.getY()] < 10 && sea.grid[p.getX()][p.getY()]%2 == 0)){

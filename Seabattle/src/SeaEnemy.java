@@ -1,7 +1,7 @@
 import java.awt.*;
 
 /**
- * Created by Тоня on 08.10.2015.
+ * Created by Tony on 08.10.2015.
  */
 public class SeaEnemy extends SeaField {
     public SeaEnemy(SeaGrid sea) {

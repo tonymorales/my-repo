@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Created by ����� on 04.10.2015.
+ * Created by APecheskih on 04.10.2015.
  */
 public class PaintGrid extends JPanel {
 
